@@ -1,0 +1,218 @@
+{
+  "basics": {
+    "name": "Anton Dubrovin",
+    "label": "Engineering Manager",
+    "picture": "",
+    "email": "anton@dubrovin.dev",
+    "phone": "6509990007",
+    "website": "",
+    "summary": "Master of Science in Telecommunications, complemented by 17 years of experience in management of telecommunication operators and engineering units. Skilled in development and implementation of engineering solutions related to the design and construction of the network infrastructure.",
+    "location": {
+      "countryCode": "US",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "dubrovin",
+        "url": "https://www.linkedin.com/in/dubrovin/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "MegaFon",
+      "endDate": "",
+      "highlights": [],
+      "position": "District Manager (Moscow & Moscow Region) with First Tower Company LLC",
+      "startDate": "2018-09-30",
+      "website": "https://www.linkedin.com/company/megafon/"
+    },
+    {
+      "company": "Moscow Region Ministry of Public Administration, IT and Communications",
+      "endDate": "2018-09-30",
+      "highlights": [],
+      "position": "Head  of  Communications  Department",
+      "startDate": "2014-12-31",
+      "summary": "Supervised the team that constructed more than 1,800 new telecommunication towers in Moscow Region. Responsible for the internal telecom network’s redesign and redevelopment transitioning from leased circuits to dark fibers. Developed the documentation around a non-discriminatory access to existing apartment buildings. Negotiated with the cell phone and data carriers the best conditions in improving the wireless connectivity in Moscow Region.",
+      "website": ""
+    },
+    {
+      "company": "Holding Company Composite",
+      "endDate": "2014-11-30",
+      "highlights": [],
+      "position": "CEO, Amitech LLC",
+      "startDate": "2013-10-31",
+      "summary": "Successfully initiated a new plant investment project in Tatarstan with total production capacity of 200 kilometers of GRP pipes. Supervised pipes plant construction in Tatarstan closely collaborating with an international technology partner. Worked with multiple key stakeholders (State Corporation Vneshekonombank (VEB), Industrial Park Alabuga, and Ministry of Economic Development) to obtain required construction permits. Negotiated the package of exclusive license agreements with Amiantit International Holding.",
+      "website": "https://www.linkedin.com/company/composite-holding-company/"
+    },
+    {
+      "company": "Composite Holding Company",
+      "endDate": "2014-01-31",
+      "highlights": [],
+      "position": "Deputy Business Development Director",
+      "startDate": "2012-07-31",
+      "summary": "Supervised  the  team  responsible  for  the  investment  projects’  financial  modeling,  fundraising,  and  business  planning. Responsible  for  two  big  projects:  NCC  LLC,  an  engineering  center  for  composite  materials  product  development,  and  Amitech  LLC,  a new  glass-reinforces  pipes  plant,  a  joint  venture  between  Amiantit  Group  (Saudi  Arabia)  and  a  Composite  Holding  Company  CJSC.",
+      "website": "https://www.linkedin.com/company/composite-holding-company/"
+    },
+    {
+      "company": "MTS Group,  Business Unit \"Carrier Networks\"",
+      "endDate": "2012-07-31",
+      "highlights": [],
+      "position": "Director of Network Engineering Department",
+      "startDate": "2010-07-31",
+      "summary": "Developed  one  of  the  longest  backbone  network  lines  that  spans  across  3,800  miles. Developed  the  strategy  and  supervised  the  implementation  of  the  new  telecom  nodes  construction. Supervised  the  team  responsible  for  the  technical  requirements  identification  and  evaluation  for  the  backbone  network  equipment. Incorporated  customer  oriented  approach  in  the  technical  solution  preparation  and  management  proposal. Other  responsibilities  included  investment  planning  and  network  infrastructure  projects  management,  management  of  the  new  telecommunications  hardware  and  technology  solutions  tests,  field  tests,  budgeting  and  plan-fact  analysis.",
+      "website": "https://www.linkedin.com/company/mts-group/"
+    },
+    {
+      "company": "МТС",
+      "endDate": "2010-11-30",
+      "highlights": [],
+      "position": "Head of Network Development Department, EuroTel JSC",
+      "startDate": "2005-08-31",
+      "summary": "Developed one of the longest backbone IP/MPLS and DWDM network lines that spans across 5,000 miles. Deployed autonomous system (AS30751) interconnections and connectivity management. Supervised the team responsible for the technical requirements identification and evaluation for the backbone network solutions. Other responsibilities included investment planning and network infrastructure projects management, management of the new telecommunications hardware and technology solutions tests, field tests, budgeting and plan-fact analysis.",
+      "website": "https://www.linkedin.com/company/mts-group/"
+    },
+    {
+      "company": "TransTeleCom",
+      "endDate": "2005-08-31",
+      "highlights": [],
+      "position": "Project Engineer (EurasiaHighway)",
+      "startDate": "2003-06-30",
+      "summary": "Developed  the  first  transit  telecommunication  route  connecting  China  and  Europe  through  the  territory  of  Russia. Participated  in  establishing  cross-border  network  interconnections  with  the  following  stakeholders:  Republic  of  Belarus  -  Beltelecom,  Ukraine  -  Eurotranstelecom,  Kazakhstan  -  Kazakhtelecom,  KaztransCom,  Mongolia  -  MongolianRailWayCom,  China  -  PRC,  ChinaUnicom,  ChinaTietong. Constructed  foreign  PoP’s  for  London,  Stockholm,  Amsterdam,  Ulan-Bator,  Beijing. Developed  connections  to  International  Internet  Exchanges:  London  Internet  Exchange  and  Amsterdam  Internet  Exchange. Other  responsibilities  included  development  and  implementation  of  engineering  solutions  related  to  the  foreign  customers,  Cross-border  network  interconnection  engineering  and  implementation,  Foreign  leased  circuits  OPEX  Management.",
+      "website": "https://www.linkedin.com/company/transtelecom/"
+    },
+    {
+      "company": "TransTeleCom",
+      "endDate": "2003-06-30",
+      "highlights": [],
+      "position": "System Engineer",
+      "startDate": "2001-04-30",
+      "summary": "Constructed  backbone  network  line  Zheleznogorsk-Ilim  -  Ust-Ilim.",
+      "website": "https://www.linkedin.com/company/transtelecom/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Irkutsk State University",
+      "area": "Radio-physics, Telecommunications",
+      "studyType": "Master’s Degree (Diploma with Honours)",
+      "startDate": "1997-12-31",
+      "endDate": "2002-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Lyceum №2, Angarsk city",
+      "area": "",
+      "studyType": "",
+      "startDate": "1994-12-31",
+      "endDate": "1997-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Telecommunications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Wireless Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Pre-sales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TransTeleCom",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Holding Company Composite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Wireless",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Systems Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Usability Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "5G",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LTE",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Small Cell Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MPLS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DAS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Reliability",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Creative Problem Solving",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "en",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Yury Bobrov, Ph.D.",
+      "reference": "I know Anton since 2001 when he joined a growing TransTeleCom’s branch in Irkutsk Region, Russia. He was an integral member of our engineering team and demonstrated his knowledge and enthusiasm in developing technical solutions for the further network expansion, as well as for providing packages of advanced telecom services to the corporate and government clients in the region. Anton worked successfully on all aspects of the complex telecom solutions design and implementation process including project budgeting, technical sales, and customer support. He was a very good person to work with and helpful for our technical sales and marketing department in growing and expanding its telecom business in the region. After two years, due to his technical knowledge and experience Anton was promoted to a more responsible technical position at TransTeleCom’s headquarters in Moscow to concentrate on development of the company’s international telecom connections and infrastructure."
+    }
+  ]
+}
