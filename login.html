@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Referral bot admin panel</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap4 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+    <br/><br/><br/><br/><br/>
+    <div class="card">
+        <div class="card-header">
+            Referral admin
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger alert-dismissible fade show" id="alert-message" style="display: none">
+                <strong>Wrong login or password!</strong> Try again.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"
+                        onclick="document.getElementById('alert-message').style.display='none'">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="edit.html" id="form">
+                <input type="url" style="display: none" name="u" id="u">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Login</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                           name="login">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+                </div>
+                <button type="submit" class="btn btn-primary" id="btn">Enter</button>
+
+            </form>
+            <div class="text-center" style="display: none" id="spinner">
+                <div class="spinner-border text-secondary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    var url = urlParams.get("u");
+    document.getElementById("u").value = url;
+    document.getElementById("form").onsubmit = function () {
+        //alert(document.getElementById("u").value);
+        document.getElementById("spinner").style.display = "block";
+        document.getElementById("btn").disabled = true;
+        var u = url + "?login=" + document.getElementById("exampleInputEmail1").value + "&password=" + document.getElementById("exampleInputPassword1").value + "&ind=0";
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', u, true);
+
+        xhr.send();
+        xhr.onreadystatechange = function () { // (3)
+            if (xhr.readyState !== 4) return;
+
+            document.getElementById("spinner").style.display = "none";
+            document.getElementById("btn").disabled = false;
+            if (xhr.responseText === "404") {
+                document.getElementById("alert-message").style.display = "block";
+            } else {
+                window.location.href = 'edit.html' + "?login=" + document.getElementById("exampleInputEmail1").value + "&password=" + document.getElementById("exampleInputPassword1").value + "&u=" + url;
+            }
+
+        };
+
+
+        return false;
+    }
+
+</script>
+</body>
+</html>
